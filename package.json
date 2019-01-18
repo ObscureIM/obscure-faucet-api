@@ -1,0 +1,31 @@
+{
+  "name": "obsidian-api",
+  "version": "1.0.0",
+  "description": "API for blockchain explorers",
+  "main": "init.js",
+  "scripts": {
+    "start": "node init.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ObsidianProtocol/obsidian-api.git"
+  },
+  "keywords": [
+    "Blockchain",
+    "Javascript",
+    "API",
+    "Heroku"
+  ],
+  "author": "Syahrul Nizam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ObsidianProtocol/obsidian-api/issues"
+  },
+  "homepage": "https://github.com/ObsidianProtocol/obsidian-api#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5",
+    "turtlecoin-rpc": "^0.8.9"
+  }
+}
