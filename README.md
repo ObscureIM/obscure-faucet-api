@@ -6,3 +6,9 @@ It connects to a node running a high availability wallet. To create a high avail
 This API makes rpc-calls using a turtle-service RPC wrapper written in JS. Instructions to set up your own API to make calls to a node is shown below:
 
 
+Clone this repository
+
+git clone https://github.com/ObscureIM/obscure-faucet-api.git
+cd obscure-faucet-api
+npm install --unsafe-perm
+node init.js 
