@@ -7,14 +7,15 @@ This API makes rpc-calls using a turtle-service RPC wrapper written in JS. Instr
 
 
 Clone this repository
-
+```
 git clone https://github.com/ObscureIM/obscure-faucet-api.git
 cd obscure-faucet-api
 npm install --unsafe-perm
 cd lib
+```
+Edit the config.json file located in lib
 
-Edit the config.json file located 
-
+```
 var express = require("express");
 
 var app = express();
@@ -93,5 +94,5 @@ app.get('/api/sendTo',function(req,res) {
     res.send(error)
   })
 })
-
+```
 
