@@ -47,7 +47,7 @@ const service = new TurtleService({
   port: 8070, // what port is turtle-service running on
   timeout: 2000, // request timeout
   ssl: false, // whether we need to connect using SSL/TLS
-  rpcPassword: '06723aXd', // must be set to the password used to run turtle-servic
+  rpcPassword: 'password', // must be set to the password used to run turtle-servic
   // RPC API default values
   defaultMixin: false, // the default mixin to use for transactions, the default setting is false which means we don't have a default value
   defaultFee: 0.1, // the default transaction fee for transactions
