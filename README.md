@@ -1,10 +1,13 @@
-# obsidian-faucet
+# obsidian-faucet-api
+
 This creates an API so that the faucet can make transactions.
 
-It connects to a node running a high availability wallet. To create a high availability wallet (ha) in a node, please fork the walletd-ha repository and see the instructions within how to run obscure-service as a daemon.
+Requirements:
 
-This API makes rpc-calls using a turtle-service RPC wrapper written in JS. Instructions to set up your own API to make calls to a node is shown below:
+A node running walletd-ha
+A cloud service to deploy this app, example heroku
 
+This API will connect to the node running walletd-ha, and make RPC calls for transactions.
 
 Clone this repository
 ```
